@@ -1,0 +1,117 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #16e0b8;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 3em;
+    color: #16e0b8;
+}
+
+.bio {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.singer-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border: 2px solid #16e0b8;
+}
+
+.bio h2 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.bio p {
+    font-size: 1.1em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.social-media {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.social-media h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-btn {
+    background-color: #16e0b8;
+    color: #000000;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.social-btn:hover {
+    background-color: #12b896;
+}
+
+.songs {
+    margin: 40px 0;
+    text-align: center;
+}
+
+.songs h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.songs ul {
+    list-style: none;
+}
+
+.songs li {
+    margin: 10px 0;
+}
+
+.songs a {
+    color: #16e0b8;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+.songs a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 0.9em;
+}
